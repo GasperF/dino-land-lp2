@@ -86,7 +86,7 @@
 	font-size: 5rem;
 	font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    line-height: 13rem;
+    line-height: 9rem;
 	/* position: relative; */
 }
 
@@ -149,7 +149,8 @@
 		text-align: left;
 	}
 	#nav__content nav ul li a {
-		font-size: 2.5rem;
+		font-size: 3.5rem;
+		line-height: 6rem;
 	}
 	#nav__content .wrapper {
 		width: 90%;
@@ -497,6 +498,20 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+@media(max-width: 767px){
+	#bottomSec{
+	  background-size: contain;
+	  background-position: bottom;
+	  }
+  }
+  @media(max-width: 574px){
+	#bottomSec{
+		background-size: contain;
+		background-position: bottom;
+	  }
+  }
+  
 
 /* info sec */
 #moreInfo{
